@@ -83,6 +83,8 @@ Elindeki bir görseli parçalayıp yeniden üretilebilir hale getir.
 3. Model görselin DNA'sını çıkarır: kamera, yüzeyler, ışık
 4. XML şablon + platforma özel komutlar (DALL-E, Flux, Gemini, Imagen) al
 
+> 💡 **Not:** Amaç, girdi görselini **tıpatıp aynı** üretebilecek bir XML şablonu oluşturmaktır. Eğer modifikasyon istiyorsan (farklı ışık, farklı açı, stil değişikliği vs.), bunu görselle birlikte açıkça belirtmelisin.
+
 ### 📝 Mod 3: Metin ile Konsept Üretimi
 
 Görsel yok, sadece kafandaki sahneyi anlat.
@@ -157,6 +159,8 @@ Reverse-engineer an existing image into a reproducible manifest.
 2. Upload the image you want to analyze
 3. Model extracts the visual DNA: optical stack, PBR surfaces, lighting physics
 4. Receive XML manifest + platform-specific prompts (DALL-E, Flux, Gemini, Imagen)
+
+> 💡 **Note:** The goal is to create an XML manifest that can reproduce the input image **exactly as-is**. If you want modifications (different lighting, angle, style changes, etc.), specify them explicitly along with the input image.
 
 ### 📝 Mode 3: Text-Based Concept Generation
 
