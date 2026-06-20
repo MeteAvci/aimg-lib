@@ -25,7 +25,12 @@ AImg-Lib, üretken görüntü modellerinin tüm potansiyelini açığa çıkarma
 
 | Modül | Hedef | Ne yapar |
 |-------|-------|----------|
-| [srm-engine](./srm-engine) | Görsel Analiz | Görselleri yeniden üretilebilir XML manifestolarına dönüştürür |
+| [srm-engine](./srm-engine) | Görsel Analiz + Tasarım | Görselleri XML manifestolarına dönüştürür veya Inspire Mode ile özgün konsepte sıçrar |
+
+### SRM'nin İki Modu
+
+- **Reconstruction:** Kaynak görseli yüksek sadakatli, yeniden üretilebilir bir sahne manifestosuna dönüştürür.
+- **[Inspire](./srm-engine/srm-inspire.xml):** Kaynağın yalnızca soyut görsel ilkelerini çıkarır; kompozisyonu kopyalamadan tamamen özgün bir konsept kurar. Sistem komutunun tamamı geçerli, adaptif XML'dir.
 
 *Daha fazla silah yükleniyor...*
 
@@ -69,7 +74,12 @@ Bu promptlar AI modelleri için optimize edilmiştir. Canlı sistemlerde test et
 
 | Module | Target | What it does |
 |--------|--------|--------------|
-| [srm-engine](./srm-engine) | Visual Analysis | Converts images into reproducible XML manifests |
+| [srm-engine](./srm-engine) | Visual Analysis + Design | Builds reproducible XML manifests or uses Inspire Mode to create original concepts |
+
+### Two SRM Modes
+
+- **Reconstruction:** Converts a source image into a high-fidelity, reproducible scene manifest.
+- **[Inspire](./srm-engine/srm-inspire.xml):** Extracts only abstract visual principles and invents an original concept without copying the composition. The complete system prompt is valid, adaptive XML.
 
 *More weapons loading...*
 

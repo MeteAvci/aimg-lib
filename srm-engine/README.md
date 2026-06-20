@@ -100,6 +100,7 @@ Görsel yok, sadece kafandaki sahneyi anlat.
 | Dosya | Açıklama |
 |-------|----------|
 | `srm-engine.md` | Ana sistem prompt'u |
+| `srm-inspire.xml` | Kopyalamadan özgün konsept üreten, tamamen XML Inspire Mode sistem prompt'u |
 | `README.md` | Bu dosya |
 
 ---
@@ -177,6 +178,7 @@ No image needed—just describe the scene in your head.
 | File | Description |
 |------|-------------|
 | `srm-engine.md` | Main system prompt |
+| `srm-inspire.xml` | Fully XML Inspire Mode system prompt for original concepts without reconstruction |
 | `README.md` | This file |
 
 ---
@@ -195,3 +197,13 @@ Part of [Me the Tech](https://methetech.com) – AI & automation studio
 ## License
 
 [CC0 1.0](../LICENSE)
+# SRM Engine
+
+SRM now ships with two complementary modes:
+
+| Mode | Purpose | Prompt |
+|---|---|---|
+| Reconstruction | Encodes a source image as a high-fidelity XML reconstruction manifest | [srm-engine.md](./srm-engine.md) |
+| Inspire | Extracts abstract visual principles and invents a structurally original concept | [srm-inspire.xml](./srm-inspire.xml) |
+
+Use Reconstruction when fidelity is the goal. Use Inspire when the reference should influence the result without being copied.
